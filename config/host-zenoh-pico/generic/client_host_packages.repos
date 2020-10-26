@@ -12,11 +12,11 @@ repositories:
     version: master
   adlink/rmw_zenoh:
     type: git
-    url: git@github.com:esteve/rmw_zenoh.git
+    url: https://github.com/esteve/rmw_zenoh.git
     version: zenoh-pico
   adlink/zenoh_pico_vendor:
     type: git
-    url: git@github.com:esteve/zenoh_pico_vendor.git
+    url: https://github.com/esteve/zenoh_pico_vendor.git
     version: ci
   adlink/rosidl_typesupport_zenoh:
     type: git
@@ -24,7 +24,7 @@ repositories:
     version: main
   uros/micro-ROS-demos:
     type: git
-    url: git@github.com:esteve/micro-ROS-demos.git
+    url: https://github.com/esteve/micro-ROS-demos.git
     version: foxy-zenoh
 
 # Required messages packages
