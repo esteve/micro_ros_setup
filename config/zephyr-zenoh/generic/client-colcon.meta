@@ -42,6 +42,12 @@
                 "-DRMW_UXRCE_MAX_CLIENTS=1",
                 "-DRMW_UXRCE_MAX_HISTORY=4"
             ]
-        }
+        },
+        "zenoh_pico": {
+            "cmake-args": [
+                "-DUNIX_TARGET=OFF",
+                "-DZEPHYR_TARGET=ON",
+            ]
+        },
     }
 }
