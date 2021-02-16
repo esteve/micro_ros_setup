@@ -10,13 +10,14 @@ function help {
 
 echo $CONFIG_NAME > $FW_TARGETDIR/APP
 
-update_meta "microxrcedds_client" "UCLIENT_PROFILE_CUSTOM_TRANSPORT=ON"
-update_meta "microxrcedds_client" "UCLIENT_PROFILE_STREAM_FRAMING=ON"
-update_meta "microxrcedds_client" "UCLIENT_PROFILE_SERIAL=OFF"
-update_meta "microxrcedds_client" "UCLIENT_PROFILE_UDP=OFF"
-update_meta "microxrcedds_client" "UCLIENT_PROFILE_TCP=OFF"
+# NOTE(esteve): not needed for zenoh
+#update_meta "microxrcedds_client" "UCLIENT_PROFILE_CUSTOM_TRANSPORT=ON"
+#update_meta "microxrcedds_client" "UCLIENT_PROFILE_STREAM_FRAMING=ON"
+#update_meta "microxrcedds_client" "UCLIENT_PROFILE_SERIAL=OFF"
+#update_meta "microxrcedds_client" "UCLIENT_PROFILE_UDP=OFF"
+#update_meta "microxrcedds_client" "UCLIENT_PROFILE_TCP=OFF"
 
-update_meta "rmw_microxrcedds" "RMW_UXRCE_TRANSPORT=custom"
+#update_meta "rmw_microxrcedds" "RMW_UXRCE_TRANSPORT=custom"
 
 echo $UROS_TRANSPORT > $FW_TARGETDIR/TRANSPORT
 
