@@ -38,3 +38,8 @@ repositories:
     type: git
     url: https://github.com/ros2/tinydir_vendor.git
     version: master
+
+  adlink/zenoh-pico:
+    type: git
+    url: https://github.com/esteve/zenoh-pico.git
+    version: zephyr

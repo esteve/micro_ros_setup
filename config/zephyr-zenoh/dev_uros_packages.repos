@@ -1,5 +1,1 @@
 repositories:
-  adlink/zenoh-pico:
-    type: git
-    url: https://github.com/esteve/zenoh-pico.git
-    version: zephyr
